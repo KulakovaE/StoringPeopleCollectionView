@@ -13,6 +13,7 @@
 		F3A6717D23F338A600C60C07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3A6717B23F338A600C60C07 /* Main.storyboard */; };
 		F3A6717F23F338A800C60C07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3A6717E23F338A800C60C07 /* Assets.xcassets */; };
 		F3A6718223F338A800C60C07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3A6718023F338A800C60C07 /* LaunchScreen.storyboard */; };
+		F3A6718A23F33C2B00C60C07 /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A6718923F33C2B00C60C07 /* PersonCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F3A6717E23F338A800C60C07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3A6718123F338A800C60C07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3A6718323F338A800C60C07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3A6718923F33C2B00C60C07 /* PersonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				F3A6717523F338A600C60C07 /* AppDelegate.swift */,
 				F3A6717723F338A600C60C07 /* SceneDelegate.swift */,
 				F3A6717923F338A600C60C07 /* ViewController.swift */,
+				F3A6718923F33C2B00C60C07 /* PersonCell.swift */,
 				F3A6717B23F338A600C60C07 /* Main.storyboard */,
 				F3A6717E23F338A800C60C07 /* Assets.xcassets */,
 				F3A6718023F338A800C60C07 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				F3A6717A23F338A600C60C07 /* ViewController.swift in Sources */,
 				F3A6717623F338A600C60C07 /* AppDelegate.swift in Sources */,
+				F3A6718A23F33C2B00C60C07 /* PersonCell.swift in Sources */,
 				F3A6717823F338A600C60C07 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
