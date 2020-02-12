@@ -52,6 +52,10 @@ class ViewController: UICollectionViewController, UIImagePickerControllerDelegat
             person.name = newName
             self?.collectionView.reloadData()
         })
+//        alertController.addAction(UIAlertAction(title: "Delete", style: .default) { [weak self] _ in
+//            self?.people.remove(at: indexPath.item)
+//            self?.collectionView.reloadData()
+//        })
             
         present(alertController, animated: true)
     }
@@ -81,6 +85,7 @@ class ViewController: UICollectionViewController, UIImagePickerControllerDelegat
         let picker = UIImagePickerController()
         picker.allowsEditing = true
         picker.delegate = self
+        //picker.sourceType = .camera
         present(picker, animated: true)
     }
 }
